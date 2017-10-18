@@ -1,0 +1,26 @@
+* {
+    /*Hacer que todos los anchos se respeten*/
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; /*Cambiamos el tipo de letra*/
+}
+
+/*Utilizamos el selector de elementos (strong) para realizar estilos*/
+strong {
+    height: 150px; /*Le damos altura del area del contenido*/
+    width: 250px; /*Escogemos eñ ancho del bloque*/
+    padding: 10px; /*Rellenamos las 4 zonas del contenido*/
+    margin: 10px; /*Establecemos el margen para los cuatro lados para separar los bloques*/
+    display: block; /*Establecemos al elemento strong  para convertirlo a bloque*/
+}
+
+/*Utilizamos el Selector clase: para llamar al atributo class y su valor "yellow" asi poder realizar cambios*/
+.yellow {
+    /*Establecemos el color de fondo del bloque que contiene a los atributos class con valor "yellow"*/
+    background-color: rgb(233, 177, 10);
+}
+
+/*Utilizamos el Selector clase: para llamar al atributo class y su valor "black" asi poder realizar cambios*/
+.black {
+    background-color: #000; /*Establecemos el color de fondo del bloque que contiene el atributo class con valor "yellow"*/
+    color: white;/*Establecemos el color del contenido*/
+}
